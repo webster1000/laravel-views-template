@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-md bg-dark navbar-dark">
 <div class="container">
 	<!-- Brand -->
-    <a class="navbar-brand" href="#">My App</a>
+    <a class="navbar-brand" href="#">{{ config('app.name') }}</a>
 
     <!-- Toggler/collapsibe Button -->
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">

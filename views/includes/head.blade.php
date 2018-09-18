@@ -6,6 +6,6 @@
 	<meta name="author" content="Zack Webster" />
 	<meta name="copyright" content="Zack Webster" />
 	<meta name="robots" content="@yield('meta-robots','follow')"/>
-    <title>@yield('title', 'My App')</title>
+    <title>@yield('title', config('app.name'))</title>
 	<link href="{{asset('css/app.css')}}" rel="stylesheet" type="text/css">
 </head>
